@@ -5,9 +5,9 @@ layout: default
 # Sign language based interaction
 
 209_BO2
-### Nicolas Cheng
-### Yinghan Cui
-### Zeyu Wang
+#### Nicolas Cheng
+#### Yinghan Cui
+#### Zeyu Wang
 
 
 ## Overview
