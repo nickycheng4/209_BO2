@@ -2,8 +2,13 @@
 layout: default
 ---
 
-# 209_BO2
-Sign language based interaction
+# Sign language based interaction
+
+209_BO2
+### Nicolas Cheng
+### Yinghan Cui
+### Zeyu Wang
+
 
 ## Overview
 
