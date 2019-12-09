@@ -1,0 +1,257 @@
+body{
+  font-family: "Helvetica Neue", "sans-serif";
+  margin: 0;
+  padding: 0;
+}
+
+#video{
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); 
+  -moz-transform:rotateY(180deg); 
+  position: absolute;
+  left: 58%;
+  top:1%;
+  z-index: 10;
+  background-color: white;
+  border: 4px solid grey;
+  border-radius: 4px;
+}
+
+#status{
+  width: 400px;
+  height: 50px;
+  background: blue;
+  position: absolute;
+  z-index: 30;
+  top: 0%;
+  left: 21%;
+  transform: translateX(-50%);
+  border:7px solid black;
+  border-top: none;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#status p{
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Baloo Bhaina', "Helvetica Neue", "sans-serif";
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+h1 .subtext {
+  font-family: "Helvetica Neue", "sans-serif";
+  font-size:14px;
+  font-weight: normal;
+  line-height: 16px;
+}
+
+.intro-steps {
+  font-size: 30px;
+}
+
+#add-word{
+  border:1px solid #333;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.split-left {
+  text-align: center;
+  height: 100%;
+  left:0;
+  width: 40%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-right: 4px solid black;
+  background:yellowgreen;
+}
+
+.split-left h1{
+  color: white;
+}
+
+
+.split-right {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  right:0;
+  padding-bottom: 20px;
+  border-left: 5px solid black;
+  background: lightskyblue;
+}
+
+.split-right h1{
+  color: black;
+  position: relative;
+  left: 15px;
+  top: 200px;
+  
+}
+
+.split-right img{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 70%;
+  width:100%;
+  z-index: -1;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width:75%;
+}
+
+#info {
+  margin-bottom: 30px;
+}
+
+
+#loader,
+#loader:before,
+#loader:after {
+  background: #000000;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+#loader {
+  color: #000000;
+  text-indent: -9999em;
+  margin: 88px auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  display: none;
+}
+#loader:before,
+#loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+#loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+#loader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: deepskyblue;
+    color: white;
+}
+
+
+.modal-body {padding: 2px 16px;}
+
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    top: 10%;
+    text-align: center;
+}
+
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 10%; opacity: 1}
+}
+
+
+#close-modal {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#close-modal:hover,
+#close-modal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
