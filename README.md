@@ -21,5 +21,6 @@ layout: default
 ## System Flowchart
 
 ## Demo Video
+!209HCI_bakeoff2_demo.mp4(https://github.com/nickycheng4/209_BO2/blob/master/209HCI_bakeoff2_demo.mp4)
 
 ## Reference Work
