@@ -32,6 +32,8 @@ To use this system, simply open the **index.html** file. In this first step, ent
 
 In the second step, hold the *"add example"* button while do the gesture you would like to be transcribed into that command. Remember that at least 30 example counts is needed to teh system to have a satisfactory performance. When example number is around 100, the performence of the system is ideal. For the command "other", simply hold the add example button and do nothing, as this command is used to determine that the user is doing nothing. Once done with al the commands, click *"try the model"*.
 
+![Final Interface](https://github.com/nickycheng4/209_BO2/blob/master/209_bakeoff_2/supportive_images/final.png)
+
 Start using your gesture commands to interact with Alexa! Remember that **each time** before you input a specific command, you have to use the command **"Alexa"** to trigger the system! 
 
 ![Examples](https://github.com/nickycheng4/209_BO2/blob/master/209_bakeoff_2/supportive_images/2.jpg)
